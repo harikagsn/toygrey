@@ -69,7 +69,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Use postgresql as the database for Active Record
 group :production do
   gem 'pg', '>= 0.18', '< 2.0'
-  gem 'fog', '1.42'
+  
 end
 
 gem 'minitest-reporters'
