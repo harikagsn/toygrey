@@ -1,0 +1,6 @@
+ rails test
+ git add -A
+ git commit -m "Add user following"
+ git checkout master
+ git merge following-users
+

@@ -1,0 +1,15 @@
+one:
+  follower: harika
+  followed: lana
+
+two:
+  follower: harika
+  followed: malory
+
+three:
+  follower: lana
+  followed: harika
+
+four:
+  follower: harika
+  followed: harika
