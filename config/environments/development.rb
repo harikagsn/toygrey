@@ -63,8 +63,8 @@ Rails.application.configure do
     domain: "localhost:3000",
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: "harikagoruganthu13@gmail.com",
-    password: "gmail47455"
+    user_name: ENV['username'],
+    password: ENV['password']
 }
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
